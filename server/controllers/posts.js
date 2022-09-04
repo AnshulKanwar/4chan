@@ -2,7 +2,7 @@ import Post from "../models/Post.js";
 
 export const getPosts = async (req, res) => {
   try {
-    const posts = await Post.find();
+    const posts = await Post.find().sort([['date', -1]]);
 
     res.status(200).json(posts);
   } catch (error) {
