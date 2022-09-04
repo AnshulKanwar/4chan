@@ -1,0 +1,19 @@
+.navbar {
+    padding: 1.5em;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    box-shadow: 1px 0 10px rgba(220, 220, 220, 0.5);
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #333333;
+}

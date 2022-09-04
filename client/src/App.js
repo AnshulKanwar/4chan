@@ -1,7 +1,16 @@
+import Navbar from "./components/Navbar";
+import PostsList from "./components/PostsList";
+import styles from './App.module.css'
+
 function App() {
   return (
-    <div>Hello 4chan</div>
-  )
+    <div>
+      <Navbar />
+      <div className={styles.container}>
+        <PostsList />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

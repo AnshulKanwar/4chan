@@ -1,0 +1,23 @@
+.postsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.post {
+    padding: 1em;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+
+    background-color: #F3F7FA;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: rgb(140, 140, 140);
+}
+.text {
+    margin: 0.3em 0;
+}
