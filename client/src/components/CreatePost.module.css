@@ -1,0 +1,67 @@
+.modal {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+}
+
+.plus {
+  font-size: 1.6em;
+  cursor: pointer;
+  background-color: #f3f7fa;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 9999px;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.plus:hover {
+  box-shadow: 0 0 5px rgba(220, 220, 220);
+}
+
+.createPost {
+  padding: 1em;
+  background-color: #f3f7fa;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  font-size: 1.4em;
+  background-color: #f3f7fa;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  gap: 1em;
+}
+
+.input {
+  padding: 1em;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.postBtn {
+  color: white;
+  background-color: #319795;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 4px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.postBtn:hover {
+  background-color: #287b79;
+}
